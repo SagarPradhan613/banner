@@ -5,7 +5,10 @@
   font-weight: bold;
   font-style: normal;
 }
-
+.main-mobile{
+  background-image: url('/Images/design.png');
+ 
+}
 .main {
   background-image: url('/Images/design.png');
   background-size: cover;
