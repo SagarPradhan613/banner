@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Nuku Nuku';
+  src: url('/banner/public/Font/nuku1.ttf') format('truetype');
+  /* Adjust the path as needed */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.main {
+  background-image: url('/Images/design.png');
+  background-size: cover;
+  /* Scales the background image to cover the entire container */
+  background-repeat: no-repeat;
+  /* Prevents the background image from repeating */
+  background-attachment: fixed;
+  /* Fixes the background image in place */
+  background-position: center center;
+  /* Centers the background image */
+}
+
+/* Define the keyframes for the animation */
+@keyframes animateShadow {
+  0%, 100% {
+    box-shadow: 0px 5px 10px 5px rgba(173, 25, 14);
+  }
+  50% {
+    box-shadow: 0px 10px 20px 8px rgba(173, 25, 14), 0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* Apply the animation to the desired element */
+.shadow-bottom {
+  animation: animateShadow 2s infinite; /* Adjust the animation duration as needed */
+}
+
+.button-shadow {
+  box-shadow: rgba(229, 33, 35, 0.17) 0px -23px 25px 0px inset, rgba(229, 33, 35, 0.15) 0px -36px 30px 0px inset, rgba(229, 33, 35, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* Define the keyframes for the button shadow animation */
+@keyframes animateButtonShadow {
+  0%, 100% {
+    box-shadow: rgba(229, 33, 35, 0.17) 0px -23px 25px 0px inset,
+                rgba(229, 33, 35, 0.15) 0px -36px 30px 0px inset,
+                rgba(229, 33, 35, 0.1) 0px -79px 40px 0px inset,
+                rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  50% {
+    box-shadow: rgba(7, 6, 6, 0.17) 0px -23px 25px 0px inset,
+                rgba(21, 15, 15, 0.15) 0px -36px 30px 0px inset,
+                rgba(229, 33, 35, 0.1) 0px -79px 40px 0px inset,
+                rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                rgba(0, 0, 0, 0.09) 0px 32px 16px,
+                0px 0px 0px 0px rgba(0, 0, 0, 0.06);
+  }
+}
