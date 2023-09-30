@@ -80,7 +80,7 @@ const Banner = () => {
         </div>
         <div class="box3 w-1/4 flex justify-center align-middle py-5">
           <button className="button-shadow animate-glow animate-button-shadow bg-[#FE3736] border-t-2 border-l-2 border-r-2 border-b-4 text-white font-bold text-xs py-1 px-2 rounded-[17px] pb-2 pt-2 border-[#AD190E] flex justify-center">
-            <img src="/Images/buyText.png" className="w-[80%]"></img>
+            <img src="/Images/BuyText.png" className="w-[80%]"></img>
           </button>
         </div>
       </div>
