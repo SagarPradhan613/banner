@@ -25,7 +25,7 @@ const Banner = () => {
           <img src="/Images/Middle.png" className="max-w-full"></img>
         </div> */}
         <div class="max-w-[450px] absolute top-0 bottom-0  left-1/2 transform -translate-x-1/2">
-            <img  src="/Images/Middle.png" class="h-full mx-auto" alt="Ava"></img>
+            <img  src="/Images/middle.png" class="h-full mx-auto" alt="Ava"></img>
           </div>
         <div className="relative w-[25%] lg:w-1/3 p-5 flex justify-center align-middle">
           <div className="w-1/2 flex items-center justify-center">
